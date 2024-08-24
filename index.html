@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,8 +37,53 @@
 </head>
 <body class="manrope">
     <!-- Header section -->
-     <header>
+     <header class="md:container mx-auto lg:container mx-auto">
+        <!-- nav-bar -->
+       <nav>
+        <div class="navbar bg-base-100">
+            <!-- brand-name -->
+            <div class="navbar-start flex-1">
+                <i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-full p-2"></i>
+              <a class="text-[28px] font-extrabold lg:text-[32px] p-2">Rinterio</a>
+            </div>
 
+            <!-- menu -->
+            <div class="navbar-center hidden lg:flex pt-2 pl-20">
+              <ul class="menu menu-horizontal px-1">
+                <li class="text-black font-extrabold"><a>Home</a></li>
+                  <li class="text-[#737373]"><a>Services</a></li>
+                  <li class="text-[#737373]"><a>Portfolio</a></li>
+                  <li class="text-[#737373]"><a>Blogs</a></li>
+                  <li class="text-[#737373]"><a>Contract us</a></li>
+              </ul>
+            </div>
+            <!-- navbar-end -->
+            <div class="navbar-end hidden lg:flex space-x-3 w-[35%]">
+
+                <i class="fa-solid fa-magnifying-glass bg-slate-200 p-2 rounded-full"></i>
+                <i class="fa-solid fa-cart-shopping bg-slate-200 p-2 rounded-full"></i>
+
+              <a class="btn bg-[#ABEF5F] text-xl text-[#1C1C1C] font-extrabold rounded-[32px]">Book Consult 
+                <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-1"></i>
+              </a>
+            </div>
+          <!-- hamburger menu for sm -->
+           <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <i class="fa-solid fa-bars bg-white p-2 rounded-full shadow-lg "></i>
+            </div>
+            <ul
+          tabindex="0"
+          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 -left-48">
+          <li><a>Home</a></li>
+          <li><a>Services</a></li>
+          <li><a>Portfolio</a></li>
+          <li><a>Blogs</a></li>
+          <li><a>Contract us</a></li>
+        </ul> 
+           </div>
+        </div>
+       </nav>
      </header>
      <!-- main section -->
       <main>
@@ -48,5 +93,8 @@
        <footer>
 
        </footer>
+
 </body>
 </html>
+
+               
