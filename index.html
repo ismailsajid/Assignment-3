@@ -23,6 +23,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                'btn-bg': 'rgba(171, 239, 95, 0.5)',
               }
             }
           }
@@ -39,7 +40,7 @@
     <!-- Header section -->
      <header class="md:container mx-auto lg:container mx-auto">
         <!-- nav-bar -->
-       <nav>
+       <nav class="lg:pt-9">
         <div class="navbar bg-base-100">
             <!-- brand-name -->
             <div class="navbar-start flex-1">
@@ -84,6 +85,32 @@
            </div>
         </div>
        </nav>
+
+       <!-- banner section -->
+        <section class="flex flex-col items-center">
+            <!-- image -->
+            <div>
+                <img class="mb-6" src="assets/banner.png" alt="">
+            </div>
+            <!--text  -->
+            <div class="text-center">
+                <h1 class="text-4xl lg:text-6xl font-extrabold  text-black mb-6">A barn house of this design has a striking appearance</h1>
+                <p class="font-medium text-[#494949] mb-8">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+
+                <div class="lg:hidden">
+                    <a class="text-xl btn bg-btn-bg font-bold text-black rounded-3xl w-[99%]">View Details  <i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-full p-2">
+
+                    </i>
+                    </a>
+                </div>
+
+                <div class="hidden lg:block">
+                    <a class="text-xl btn bg-btn-bg font-bold text-black rounded-3xl">View Details  <i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] rounded-full p-2">
+                    </i>
+                    </a>
+                </div>
+            </div>
+        </section>
      </header>
      <!-- main section -->
       <main>
